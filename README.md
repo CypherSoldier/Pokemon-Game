@@ -2,19 +2,20 @@
 
 ## Description
 
-"Catch That Pokémon!" is a simple yet exciting 2D game built using **Pygame**. The goal is to collect all Pokéballs on the map while avoiding enemies like Team Rocket and wild Pokémon. You control Ash and must navigate the environment strategically before time runs out!
+"Catch That Pokémon!" is a simple yet exciting 2D game built using **Pygame**. The goal is to collect all Pokéballs on the map while avoiding enemies like Team Rocket. You control Ash and must navigate the environment strategically before time runs out and collect more balls than Team Rocket!
 
 ## Features
 
 - **Grid-Based Movement**: Move Ash using the arrow keys.
 - **Time Limit**: Complete the game before the timer reaches zero.
-- **Enemy AI**: Team Rocket and wild Pokémon move randomly to challenge you.
+- **Enemy AI**: Using the A* star pathfinding algorithm, Team Rocket will move around the map collecting balls by calculating the distance between the their current position and the nearest apple.
 - **Simple Graphics**: Custom media assets (images) can be added.
 - **Score System**: Gain points by collecting Pokéballs.
 - **Game Over Scenarios**:
   - If time runs out.
   - If Ash collides with an enemy.
   - If all Pokéballs are collected, you win!
+  - If Team Rocket collects more balls than you.
 
 ## Installation
 
