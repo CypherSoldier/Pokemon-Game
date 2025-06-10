@@ -8,7 +8,7 @@
 
 - **Grid-Based Movement**: Move Ash using the arrow keys.
 - **Time Limit**: Complete the game before the timer reaches zero.
-- **Enemy AI**: Using the A* star pathfinding algorithm, Team Rocket will move around the map collecting balls by calculating the distance between their current position and the nearest apple.
+- **Enemy AI**: Using the A* star pathfinding algorithm, Team Rocket will move around the map collecting balls by calculating the distance between their current position and the nearest ball to determine the shortest path and move accordingly.
 - **Simple Graphics**: Custom media assets (images) can be added.
 - **Score System**: Gain points by collecting Pokéballs.
 - **Game Over Scenarios**:
